@@ -1,0 +1,17 @@
+Question:Difference between window,screen and documentation
+                             WINDOW OBJECTS:
+window object represents the current browsing context.
+It holds things like window.location,window.history,window.screen,window.status,window.document.
+Each browser tab has its own top-level window object.
+The window object is supported by all browsers.
+ The window is the first thing that gets loaded into the browser .
+                             SCREEN OBJECTS:
+ Screen is a small information object about physical screen dimensions.
+ It can be used to display screen width, height, colorDepth, pixelDepth etc.
+ It is not mandatory to write window prefix with screen object.    
+  It can be written without window prefix.
+                              DOCUMENT OBJECTS
+  The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree. 
+ When an HTML document is loaded into a web browser , it becomes a document object.
+  The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc.         
+
