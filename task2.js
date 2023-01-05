@@ -11,4 +11,4 @@ let data={
      "hobbies":"reading,writing"
 }
      console.log[data];
-     
+

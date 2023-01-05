@@ -13,5 +13,5 @@ The window object is supported by all browsers.
                               DOCUMENT OBJECTS
   The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree. 
  When an HTML document is loaded into a web browser , it becomes a document object.
-  The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc.         
+  The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc. G        
 
